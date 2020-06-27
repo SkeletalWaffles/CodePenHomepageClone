@@ -1,0 +1,111 @@
+/* Main styles */
+.main-page-content {
+    background-color: #424242;
+    background-image: radial-gradient(circle at 25% 30%, #3a3a46, black);
+    height: 725px;
+    width: 100%;
+    padding-left: 70px;
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+    grid-gap: 125px;
+}
+
+/* Left column - Description text styles */
+.main-page-content > .left-column > .description-text {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main-page-content > .left-column > .description-text > .main-title h1 {
+    font-weight: 300;
+    color: white;
+    font-size: 50px;
+}
+
+.main-page-content > .left-column > .description-text > .main-title h1 span {
+    font-weight: 700;
+}
+
+.main-page-content > .left-column > .description-text > .main-title > .waving-hand {
+    width: 50px;
+    height: 100%;
+    float: right;
+    display: block;
+    margin: -90px 459px 0px 10px;
+}
+
+.main-page-content > .left-column > .description-text > .sub-title h2 {
+    color: #adadad;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+/* Left column - Buttons styles */
+.main-page-content > .left-column > .buttons-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 20px;
+    width: 82%;
+    margin-top: 45px;
+}
+
+.main-page-content > .left-column > .buttons-container button {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    border-radius: 5px;
+}
+
+.main-page-content > .left-column > .buttons-container button:focus {
+    outline: none;
+}
+
+.main-page-content > .left-column > .buttons-container > .sign-up {
+    background-color: #47ff85;
+    border: 1px solid #47ff85;
+}
+
+.main-page-content > .left-column > .buttons-container > .learn-more {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 700;
+}
+
+/* Right column - link styles */
+.main-page-content > .right-column > .projects-link {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.18rem;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.main-page-content > .right-column > .projects-link a {
+    text-decoration: none;
+    color: #91d7ff;
+}
+
+/* Right column - image styles */
+.main-page-content > .right-column {
+    margin-top: 100px;
+}
+
+.main-page-content > .right-column > .code-demonstration-image {
+    width: 450px;
+    height: 580px;
+}
+
+.main-page-content > .right-column > .code-demonstration-image img {
+    object-fit: cover;
+    height: 100%;
+    -webkit-box-shadow: -20px 24px 38px 4px rgba(0,0,0,0.25);
+    -moz-box-shadow: -20px 24px 38px 4px rgba(0,0,0,0.25);
+    box-shadow: -20px 24px 38px 4px rgba(0,0,0,0.25);
+    overflow: hidden;
+}
